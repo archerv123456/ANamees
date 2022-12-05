@@ -1,0 +1,98 @@
+ <!DOCTYPE HTML>
+<!--The whole HTML document-->
+<html>
+  <!--The head of the document-->
+  <head>
+    <!--The favicon, title, scripts, and settings-->
+    <link rel="shortcut icon" type="image/ico" href="./image.ico"/>
+    <title> Chat-Rooms </title>
+    <meta name = "charset" charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+  </head>
+  <!--The body of the document-->
+  <body onload = "onload()">
+    <!--The main div of the document-->
+    <div id = "Main">
+      <!--Audio File-->
+      <audio id = "Ding" src = "Ding.mp3"> </audio>
+      <!--Title-->
+      <h1 id = "Title"> Chat-Rooms </h1>
+      <h6 class = "TitleVersion">Version 0.0.7.3</h6>
+      <!--Type in Username, Chatroom, and Message. Also the Connect and Disconnect button.-->
+      <div id = "AccessPort">
+        <p>Username</p>
+        <p></p>
+        <p></p>
+        <input id = "NameInput" type = "text" value = "Guest" class = "TextBox" autocomplete="off" placeholder="Insert Username Here">
+        <input id = "RandomNameButton" type = "button" class = "Button" value = "Random Name" onclick = "RandomName()">
+        <p>Chatroom</p>
+        <p></p>
+        <input id = "IDInput" value = "" type = "text" class = "TextBox" autocomplete="off" placeholder="Insert Custom Room Name Here">
+        <input id = "ConnectButton" class = "Button" type = "submit" value = "Connect" onclick = "Connect()">
+        <input id = "DisconnectButton" class = "Button" type = "submit" value = "Disconnect" onclick = "Disconnect()">
+        <p></p>
+        <input id = "Main1" class = "Button" type = "submit" value = "Join Main1" onclick = "JoinMain1()">
+        <input id = "Main2" class = "Button" type = "submit" value = "Join Main2" onclick = "JoinMain2()">
+        <input id = "Main3" class = "Button" type = "submit" value = "Join Main3" onclick = "JoinMain3()">
+        <br><br>
+        <h3>Message</h3>
+        <input id = "ComposedMessage" type = "text" class = "TextBox" autocomplete="off" placeholder="Insert Message Here">
+        <input id = "SendMessage" onclick="Send()" value = "Send" class = "Button" type = "submit">
+      </div>
+      <h2 id = "RoomID" class = "ConnectedRoom"> Connected Room: None </h2>
+<!--Messages-->
+      <div id = "Chat">
+        <p id = "Message0" class = "Message"> - </p>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> -  </p>
+        <p id = "Message3" class = "Message"> -  </p>
+        <p id = "Message4" class = "Message"> -  </p>
+        <p id = "Message5" class = "Message">   </p>
+        <p id = "Message6" class = "Message">   </p>
+        <p id = "Message7" class = "Message">   </p>
+        <p id = "Message8" class = "Message">   </p>
+        <p id = "Message9" class = "Message">   </p>
+        <p id = "Message10" class = "Message">   </p>
+        <p id = "Message11" class = "Message">   </p>
+        <p id = "Message12" class = "Message">   </p>
+        <p id = "Message13" class = "Message">   </p>
+        <p id = "Message14" class = "Message">   </p>
+        <p id = "Message15" class = "Message">   </p>
+        <p id = "Message16" class = "Message">   </p>
+        <p id = "Message17" class = "Message">   </p>
+        <p id = "Message18" class = "Message">   </p>
+        <p id = "Message19" class = "Message">   </p>
+        <p id = "Message20" class = "Message">   </p>
+        <p id = "Message21" class = "Message">   </p>
+        <p id = "Message22" class = "Message">   </p>
+        <p id = "Message23" class = "Message">   </p>
+        <p id = "Message24" class = "Message">   </p>
+        <p id = "Message25" class = "Message">   </p>
+        <p id = "Message26" class = "Message">   </p>
+        <p id = "Message27" class = "Message">   </p>
+        <p id = "Message28" class = "Message">   </p>
+        <p id = "Message29" class = "Message">  </p>
+        <!--Users-->
+        <h2 class = "UsersNameThing">Users In Room:</h2>
+        <div id="users" class="Userss"></div>
+      </div>
+      <p></p>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <!--Other-->
+      <img src="./download.gif" width="100" 
+     height="150">
+      <br><br>
+      <br><br>
+      <a href="./updates.html" class = "UpdatesLink">Updates</a>
+      <p></p>
+      <a href="./wall.html">Wall</a>
+      <p></p>
+      <h6 class = "ByAName">By: AName</h6>
+  </body>
+</html>

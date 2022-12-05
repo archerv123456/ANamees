@@ -1,0 +1,91 @@
+body{
+  background: #303030;
+  color: #757575;
+  font-family: 'Segoe UI';
+}
+
+label{
+  width: 5%;
+  display: inline-block;
+  text-align: right;
+}
+
+input{
+  background: #ffffff;
+  color: #303030;
+  font-size: 120%;
+  border: none;
+}
+
+a{
+  color: #ffffff;
+}
+
+.Message{
+  color: #232323;
+  text-align: center;
+}
+
+.Userss{
+  color: #ffffff;
+}
+
+
+
+.ConnectedRoom{
+  text-align: center;
+  color: #ffffff;
+}
+
+.InvisibleP{
+  color: #000000;
+}
+
+.UsersNameThing{
+  text-align: center;
+  color: #ffffff;
+}
+
+.ByAName{
+  font-size: 50%;
+  color: #212121;
+}
+
+.Button {
+  background-color: #595959;
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.TextBox {
+  background-color: #ffffff;
+  border: none;
+  color: #4f4f4f;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#Main{
+  background: #000000;
+  border-radius: 1%;
+  padding-left: 1%;
+}
+
+#Title{
+  font-size: 300%;
+  text-align: center;
+}
+
+.TitleVersion{
+  font-size: 25%;
+  text-align: center;
+  margin-top: -40px;
+}

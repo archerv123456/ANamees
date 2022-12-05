@@ -1,0 +1,27 @@
+{
+  "name": "Chat-Rooms",
+  "version": "0.0.7.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@andyet/simplewebrtc": "^1.30.5",
+    "@nestjs/platform-socket.io": "^9.2.1",
+    "@nestjs/websockets": "^9.2.1",
+    "@socket.io/admin-ui": "^0.5.1",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "html": "^1.0.0",
+    "mysql": "^2.18.1",
+    "server": "^1.0.27",
+    "socket.io": "^3.1.2"
+  }
+}
